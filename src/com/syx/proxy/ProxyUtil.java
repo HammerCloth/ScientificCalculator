@@ -1,5 +1,6 @@
 package com.syx.proxy;
 
+import com.syx.aop.MathI;
 import org.springframework.cglib.proxy.InvocationHandler;
 import org.springframework.cglib.proxy.Proxy;
 

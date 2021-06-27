@@ -1,13 +1,18 @@
-package com.syx.proxy;
+package com.syx.aop;
+
+import com.syx.aop.MathI;
+import org.springframework.stereotype.Component;
 
 /**
  * @author:syx
  * @date:2021/6/26 11:33
  * @version:v1.0
  */
-public class MathImpl implements MathI{
+@Component
+public class MathImpl implements MathI {
     @Override
     public int add(int a, int b) {
+
         return a+b;
     }
 
